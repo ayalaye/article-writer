@@ -1,0 +1,26 @@
+{
+  "name": "article-writer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.7.1",
+    "jsdom": "^24.0.0",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.12.10",
+    "mongoose-id-validator": "^0.6.0",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
